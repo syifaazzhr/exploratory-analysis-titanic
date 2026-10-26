@@ -1,22 +1,53 @@
-# 🚢 Titanic Survival Analysis 🚢
-## Overview
-This project is part of the dibimbing.id Bootcamp aimed at learning and applying the basic steps of data analysis using the Titanic dataset. The main focus of this project is on data cleaning, exploratory data analysis (EDA) and data visualization to understand the factors that influenced the survival of Titanic passengers.
+# Titanic Survival Analysis 
 
-## Project Description
-This project uses the Titanic dataset, which contains information about passengers who survived and those who did not in the Titanic disaster. Using Python and data analysis libraries like Pandas, Matplotlib, and Seaborn, this project will identify significant patterns in the data, such as the impact of age, gender, and other factors on passenger survival. The dataset contains the following columns:
-1. name: The name of the passenger.
-2. survived: Whether the passenger survived or not.
-3. sex: The gender of the passenger.
-4. age: The age of the passenger.
+## Project Overview
 
-## Methodology
-1. Data Cleaning: Handle missing values by using mode for categorical columns and median for numerical columns. Remove duplicate records to maintain data quality.
-2. Exploratory Data Analysis (EDA): Analyze the distributions of key variables and explore relationships between different factors influencing survival, such as age and gender.
-3. Data Visualization: Create visualizations to support findings and make it easier to interpret the data (e.g., pie charts, bar plots, heatmaps).
+The Titanic was a British passenger ship that sank in April 1912 after hitting an iceberg. The disaster caused the loss of more than 1,500 lives. This project uses Exploratory Data Analysis (EDA) to understand passenger survival patterns based on age and gender. The analysis includes data cleaning, statistical summaries, and data visualizations using Python. The goal is to find useful insights and understand how age and gender were related to passenger survival.
 
 ## Objectives
-1. Understanding the structure of the dataset by looking at data samples and other information.
-2. Summarizing basic statistics to understand the data distribution and its characteristics.
-3. Identifying and handling duplicate data to maintain quality.
-4. Identifying and selecting the best approach to handle missing values.
-5. Creating simple visualizations to make data easier to understand.
+
+- Analyze passenger survival based on age and gender.
+- Identify survival patterns across different passenger groups.
+- Present key findings through data visualization.
+
+## Dataset Information
+
+The dataset contains 500 passenger records with four columns:
+
+- `survived`: Passenger survival status (0 = Not Survived, 1 = Survived)
+- `name`: Passenger name
+- `sex`: Passenger gender
+- `age`: Passenger age
+
+During data cleaning, one duplicate row was removed, leaving 499 passengers. The dataset also contained 49 missing age values. These records were kept for overall survival and gender analyses but excluded from age-related analyses.
+
+As a result, age-related analyses used 450 passengers with recorded ages.
+
+## Tools & Libraries
+
+- **Python** – Data analysis
+- **Pandas** – Data cleaning and manipulation
+- **Matplotlib** – Data visualization
+- **Seaborn** – Statistical data visualization
+- **Jupyter Notebook** – Analysis and documentation
+
+## Analysis Workflow
+
+1. **Data Observation:** Explore the dataset structure and identify missing values and duplicates.
+2. **Data Cleaning:** Remove duplicate records and prepare data for age-related analyses.
+3. **Statistical Summary:** Explore passenger survival, gender, and age distributions.
+4. **Exploratory Data Analysis:** Visualize survival patterns based on age and gender.
+5. **Conclusion:** Summarize key findings and analysis limitations.
+
+## Key Findings
+
+- **Overall Survival:** Of the 499 passengers, 269 (53.9%) survived, while 230 (46.1%) did not survive.
+- **Gender:** Female passengers had a much higher survival rate (about 93%) than male passengers (about 25%).
+- **Age Groups:** Children had the highest survival rate (94.4%), while elderly passengers had the lowest (29.2%) among passengers with recorded ages.
+- **Age and Gender:** Female passengers generally had higher survival rates across most age groups, although children showed a different pattern.
+
+## Conclusion
+
+The analysis shows that age and gender were related to passenger survival. Female passengers had higher survival rates than males, while children had the highest survival rate among the age groups.
+
+These findings describe patterns in the dataset and do not prove the causes of survival differences.
