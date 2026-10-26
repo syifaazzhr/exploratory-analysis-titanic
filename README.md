@@ -51,5 +51,4 @@ As a result, age-related analyses used 450 passengers with recorded ages.
 ## Conclusion
 
 The analysis shows that age and gender were related to passenger survival. Female passengers had higher survival rates than males, while children had the highest survival rate among the age groups.
-
 These findings describe patterns in the dataset and do not prove the causes of survival differences.
