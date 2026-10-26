@@ -1,4 +1,4 @@
-# 🚢 Exploratory Data Analysis - Titanic Dataset 🚢
+# 🚢 Titanic Survival Analysis – Uncovering Insights from the Data 🚢
 ## Overview
 This project is part of the dibimbing.id Bootcamp aimed at learning and applying the basic steps of data analysis using the Titanic dataset. The main focus of this project is on data cleaning, exploratory data analysis (EDA) and data visualization to understand the factors that influenced the survival of Titanic passengers.
 
