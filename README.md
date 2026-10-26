@@ -1,5 +1,7 @@
 # Titanic Survival Analysis 
 
+This project was developed as part of the mini bootcamp by dibimbing.id.
+
 ## Project Overview
 
 The Titanic was a British passenger ship that sank in April 1912 after hitting an iceberg. The disaster caused the loss of more than 1,500 lives. This project uses Exploratory Data Analysis (EDA) to understand passenger survival patterns based on age and gender. The analysis includes data cleaning, statistical summaries, and data visualizations using Python. The goal is to find useful insights and understand how age and gender were related to passenger survival.
